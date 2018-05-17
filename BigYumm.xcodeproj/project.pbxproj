@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E66BBDE20AC127400F551AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BBDD20AC127400F551AA /* AppDelegate.swift */; };
+		7E66BBE020AC127400F551AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BBDF20AC127400F551AA /* ViewController.swift */; };
+		7E66BBE520AC127400F551AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E66BBE420AC127400F551AA /* Assets.xcassets */; };
+		7E66BBE820AC127400F551AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E66BBE620AC127400F551AA /* LaunchScreen.storyboard */; };
+		7E66BBF320AC127400F551AA /* BigYummTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BBF220AC127400F551AA /* BigYummTests.swift */; };
+		7E66BBFE20AC127400F551AA /* BigYummUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BBFD20AC127400F551AA /* BigYummUITests.swift */; };
+		7E66BC1920AC13D600F551AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BC1820AC13D600F551AA /* LoginViewController.swift */; };
+		7E66BC1B20AC140400F551AA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E66BC1A20AC140400F551AA /* Login.storyboard */; };
+		7E66BC1E20AC18CE00F551AA /* broken_heart in Resources */ = {isa = PBXBuildFile; fileRef = 7E66BC1D20AC18CE00F551AA /* broken_heart */; };
+		7E66BC2020AC195B00F551AA /* Broken Heart.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E66BC1F20AC195B00F551AA /* Broken Heart.ttf */; };
+		7E66BC6020AD64B300F551AA /* UIViewController+NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BC5F20AD64B300F551AA /* UIViewController+NavBar.swift */; };
+		7E66BC6220AD657900F551AA /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E66BC6120AD657900F551AA /* Dashboard.storyboard */; };
+		7E66BC6420AD658D00F551AA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66BC6320AD658D00F551AA /* DashboardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E66BBEF20AC127400F551AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E66BBD220AC127400F551AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E66BBD920AC127400F551AA;
+			remoteInfo = BigYumm;
+		};
+		7E66BBFA20AC127400F551AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E66BBD220AC127400F551AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E66BBD920AC127400F551AA;
+			remoteInfo = BigYumm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E66BBDA20AC127400F551AA /* BigYumm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigYumm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E66BBDD20AC127400F551AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E66BBDF20AC127400F551AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E66BBE420AC127400F551AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E66BBE720AC127400F551AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E66BBE920AC127400F551AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E66BBEE20AC127400F551AA /* BigYummTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigYummTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E66BBF220AC127400F551AA /* BigYummTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigYummTests.swift; sourceTree = "<group>"; };
+		7E66BBF420AC127400F551AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E66BBF920AC127400F551AA /* BigYummUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigYummUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E66BBFD20AC127400F551AA /* BigYummUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigYummUITests.swift; sourceTree = "<group>"; };
+		7E66BBFF20AC127400F551AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E66BC1820AC13D600F551AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7E66BC1A20AC140400F551AA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		7E66BC1D20AC18CE00F551AA /* broken_heart */ = {isa = PBXFileReference; lastKnownFileType = folder; path = broken_heart; sourceTree = "<group>"; };
+		7E66BC1F20AC195B00F551AA /* Broken Heart.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Broken Heart.ttf"; path = "BigYumm/Common/Fonts/broken_heart/Broken Heart.ttf"; sourceTree = "<group>"; };
+		7E66BC5F20AD64B300F551AA /* UIViewController+NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavBar.swift"; sourceTree = "<group>"; };
+		7E66BC6120AD657900F551AA /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		7E66BC6320AD658D00F551AA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E66BBD720AC127400F551AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E66BBEB20AC127400F551AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E66BBF620AC127400F551AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E66BBD120AC127400F551AA = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1F20AC195B00F551AA /* Broken Heart.ttf */,
+				7E66BBDC20AC127400F551AA /* BigYumm */,
+				7E66BBF120AC127400F551AA /* BigYummTests */,
+				7E66BBFC20AC127400F551AA /* BigYummUITests */,
+				7E66BBDB20AC127400F551AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E66BBDB20AC127400F551AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BBDA20AC127400F551AA /* BigYumm.app */,
+				7E66BBEE20AC127400F551AA /* BigYummTests.xctest */,
+				7E66BBF920AC127400F551AA /* BigYummUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E66BBDC20AC127400F551AA /* BigYumm */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC0F20AC12E000F551AA /* Resources */,
+				7E66BC0E20AC12D900F551AA /* Modules */,
+				7E66BC0D20AC12BB00F551AA /* Common */,
+				7E66BC0C20AC12B300F551AA /* Application */,
+				7E66BC0B20AC12A500F551AA /* Extension */,
+				7E66BBDF20AC127400F551AA /* ViewController.swift */,
+				7E66BBE920AC127400F551AA /* Info.plist */,
+			);
+			path = BigYumm;
+			sourceTree = "<group>";
+		};
+		7E66BBF120AC127400F551AA /* BigYummTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BBF220AC127400F551AA /* BigYummTests.swift */,
+				7E66BBF420AC127400F551AA /* Info.plist */,
+			);
+			path = BigYummTests;
+			sourceTree = "<group>";
+		};
+		7E66BBFC20AC127400F551AA /* BigYummUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BBFD20AC127400F551AA /* BigYummUITests.swift */,
+				7E66BBFF20AC127400F551AA /* Info.plist */,
+			);
+			path = BigYummUITests;
+			sourceTree = "<group>";
+		};
+		7E66BC0B20AC12A500F551AA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC5F20AD64B300F551AA /* UIViewController+NavBar.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7E66BC0C20AC12B300F551AA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BBDD20AC127400F551AA /* AppDelegate.swift */,
+				7E66BBE620AC127400F551AA /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7E66BC0D20AC12BB00F551AA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1C20AC18B700F551AA /* Fonts */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7E66BC0E20AC12D900F551AA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1120AC136500F551AA /* Dashboard */,
+				7E66BC1020AC135C00F551AA /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7E66BC0F20AC12E000F551AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BBE420AC127400F551AA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E66BC1020AC135C00F551AA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1720AC13A900F551AA /* View */,
+				7E66BC1620AC13A000F551AA /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7E66BC1120AC136500F551AA /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1520AC138F00F551AA /* CustomCell */,
+				7E66BC1420AC138000F551AA /* ViewController */,
+				7E66BC1320AC137900F551AA /* View */,
+				7E66BC1220AC137000F551AA /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		7E66BC1220AC137000F551AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E66BC1320AC137900F551AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC6120AD657900F551AA /* Dashboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E66BC1420AC138000F551AA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC6320AD658D00F551AA /* DashboardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7E66BC1520AC138F00F551AA /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		7E66BC1620AC13A000F551AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1820AC13D600F551AA /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E66BC1720AC13A900F551AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1A20AC140400F551AA /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E66BC1C20AC18B700F551AA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E66BC1D20AC18CE00F551AA /* broken_heart */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E66BBD920AC127400F551AA /* BigYumm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E66BC0220AC127400F551AA /* Build configuration list for PBXNativeTarget "BigYumm" */;
+			buildPhases = (
+				7E66BBD620AC127400F551AA /* Sources */,
+				7E66BBD720AC127400F551AA /* Frameworks */,
+				7E66BBD820AC127400F551AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigYumm;
+			productName = BigYumm;
+			productReference = 7E66BBDA20AC127400F551AA /* BigYumm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E66BBED20AC127400F551AA /* BigYummTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E66BC0520AC127400F551AA /* Build configuration list for PBXNativeTarget "BigYummTests" */;
+			buildPhases = (
+				7E66BBEA20AC127400F551AA /* Sources */,
+				7E66BBEB20AC127400F551AA /* Frameworks */,
+				7E66BBEC20AC127400F551AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E66BBF020AC127400F551AA /* PBXTargetDependency */,
+			);
+			name = BigYummTests;
+			productName = BigYummTests;
+			productReference = 7E66BBEE20AC127400F551AA /* BigYummTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E66BBF820AC127400F551AA /* BigYummUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E66BC0820AC127400F551AA /* Build configuration list for PBXNativeTarget "BigYummUITests" */;
+			buildPhases = (
+				7E66BBF520AC127400F551AA /* Sources */,
+				7E66BBF620AC127400F551AA /* Frameworks */,
+				7E66BBF720AC127400F551AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E66BBFB20AC127400F551AA /* PBXTargetDependency */,
+			);
+			name = BigYummUITests;
+			productName = BigYummUITests;
+			productReference = 7E66BBF920AC127400F551AA /* BigYummUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E66BBD220AC127400F551AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = synerzip;
+				TargetAttributes = {
+					7E66BBD920AC127400F551AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7E66BBED20AC127400F551AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E66BBD920AC127400F551AA;
+					};
+					7E66BBF820AC127400F551AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E66BBD920AC127400F551AA;
+					};
+				};
+			};
+			buildConfigurationList = 7E66BBD520AC127400F551AA /* Build configuration list for PBXProject "BigYumm" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E66BBD120AC127400F551AA;
+			productRefGroup = 7E66BBDB20AC127400F551AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E66BBD920AC127400F551AA /* BigYumm */,
+				7E66BBED20AC127400F551AA /* BigYummTests */,
+				7E66BBF820AC127400F551AA /* BigYummUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E66BBD820AC127400F551AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E66BC2020AC195B00F551AA /* Broken Heart.ttf in Resources */,
+				7E66BC6220AD657900F551AA /* Dashboard.storyboard in Resources */,
+				7E66BC1E20AC18CE00F551AA /* broken_heart in Resources */,
+				7E66BC1B20AC140400F551AA /* Login.storyboard in Resources */,
+				7E66BBE820AC127400F551AA /* LaunchScreen.storyboard in Resources */,
+				7E66BBE520AC127400F551AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E66BBEC20AC127400F551AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E66BBF720AC127400F551AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E66BBD620AC127400F551AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E66BC1920AC13D600F551AA /* LoginViewController.swift in Sources */,
+				7E66BBE020AC127400F551AA /* ViewController.swift in Sources */,
+				7E66BC6420AD658D00F551AA /* DashboardViewController.swift in Sources */,
+				7E66BC6020AD64B300F551AA /* UIViewController+NavBar.swift in Sources */,
+				7E66BBDE20AC127400F551AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E66BBEA20AC127400F551AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E66BBF320AC127400F551AA /* BigYummTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E66BBF520AC127400F551AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E66BBFE20AC127400F551AA /* BigYummUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E66BBF020AC127400F551AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E66BBD920AC127400F551AA /* BigYumm */;
+			targetProxy = 7E66BBEF20AC127400F551AA /* PBXContainerItemProxy */;
+		};
+		7E66BBFB20AC127400F551AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E66BBD920AC127400F551AA /* BigYumm */;
+			targetProxy = 7E66BBFA20AC127400F551AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E66BBE620AC127400F551AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E66BBE720AC127400F551AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E66BC0020AC127400F551AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E66BC0120AC127400F551AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E66BC0320AC127400F551AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67822934AQ;
+				INFOPLIST_FILE = BigYumm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.BigYumm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E66BC0420AC127400F551AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67822934AQ;
+				INFOPLIST_FILE = BigYumm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.BigYumm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E66BC0620AC127400F551AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigYummTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.BigYummTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigYumm.app/BigYumm";
+			};
+			name = Debug;
+		};
+		7E66BC0720AC127400F551AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigYummTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.BigYummTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigYumm.app/BigYumm";
+			};
+			name = Release;
+		};
+		7E66BC0920AC127400F551AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigYummUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.BigYummUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigYumm;
+			};
+			name = Debug;
+		};
+		7E66BC0A20AC127400F551AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigYummUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.BigYummUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigYumm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E66BBD520AC127400F551AA /* Build configuration list for PBXProject "BigYumm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E66BC0020AC127400F551AA /* Debug */,
+				7E66BC0120AC127400F551AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E66BC0220AC127400F551AA /* Build configuration list for PBXNativeTarget "BigYumm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E66BC0320AC127400F551AA /* Debug */,
+				7E66BC0420AC127400F551AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E66BC0520AC127400F551AA /* Build configuration list for PBXNativeTarget "BigYummTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E66BC0620AC127400F551AA /* Debug */,
+				7E66BC0720AC127400F551AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E66BC0820AC127400F551AA /* Build configuration list for PBXNativeTarget "BigYummUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E66BC0920AC127400F551AA /* Debug */,
+				7E66BC0A20AC127400F551AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E66BBD220AC127400F551AA /* Project object */;
+}
